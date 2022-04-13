@@ -7,8 +7,6 @@ tag my-page
 		console.log 'Some page opened'
 
 	@autorun def fetch_data()
-		if state.val 
-			console.log state.val
 		if mirror != state.val
 			mirror = state.val
 
